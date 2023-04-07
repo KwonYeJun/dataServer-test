@@ -13,14 +13,13 @@ Common.js 방식에서 ESC 방식으로 바꾸어 사용 할 것이다.
 
 - 가상 공간에서 서버를 열어 보고 싶어서 사용해 보았다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d54ceb09-1e20-4a4e-82e2-47157947e2c2/Untitled.png)
+
 
 ## 시간 Date(); 생성
 
 - 현재 시간 값을 받아오기 위하여 Date() 함수를 사용하였다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19be4f96-abb1-4ce9-9621-c051c0827ab4/Untitled.png)
-    
+
 
 ### 객체의 새로운 값을 시도 해보기 전 코드
 
