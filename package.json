@@ -1,0 +1,20 @@
+{
+  "name": "dataserver-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KwonYeJun/dataServer-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KwonYeJun/dataServer-test/issues"
+  },
+  "homepage": "https://github.com/KwonYeJun/dataServer-test#readme"
+}
