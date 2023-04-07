@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      const root = document.getElementById("root");
+      document.addEventListener("DOMContentLoaded", get());
+
+      function get() {
+        let date = new Date();
+        let yy = date.getFullYear().toString();
+        let mm = (date.getMonth() + 1).toString();
+        let dd = date.getDate().toString();
+        let hh = date.getHours().toString();
+        let mn = date.getMinutes().toString();
+        let ss = date.getSeconds().toString();
+        let time =
+          yy +
+          "-" +
+          mm +
+          "-" +
+          dd +
+          " 시간 " +
+          hh +
+          "시 " +
+          mn +
+          "분 " +
+          ss +
+          "초";
+        root.innerHTML = time;
+        setTimeout(get, 1000);
+      }
+    </script>
+  </body>
+</html>
