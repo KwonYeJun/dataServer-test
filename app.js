@@ -1,6 +1,6 @@
 import http from "http";
 import fs from "fs";
-
+const a =00;
 const server = http.createServer(function (request, response) {
   const main = fs.readFileSync("./test.txt", { encoding: "utf-8" });
 
